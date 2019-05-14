@@ -6,7 +6,7 @@ function restyle(strStyle)
 
 	if(strStyle === 'white')
 	{
-		document.body.style.background = "url(whiteIndex.png)";
+		document.body.style.background = "url(https://shesky17.github.io/static/bkg_img/whiteIndex.png)";
 		document.body.style.backgroundSize = "cover";
 		document.getElementById('credit').innerHTML = '';
 		for(var i=0; i<font.length; i++)
@@ -37,7 +37,7 @@ function restyle(strStyle)
 	}
 	else if(strStyle === 'gray')
 	{
-		document.body.style.background = "url(grayIndex.png)";
+		document.body.style.background = "url(https://shesky17.github.io/static/bkg_img/grayIndex.png)";
 		document.body.style.backgroundSize = "cover";
 		document.getElementById('credit').innerHTML = '';for (var i=0; i<font.length; i++);
 		for(var i=0; i<font.length; i++)
@@ -51,7 +51,7 @@ function restyle(strStyle)
 	}
 	else if(strStyle === 'stars')
 	{
-		document.body.style.background = "url(stars.jpg)";
+		document.body.style.background = "url(https://shesky17.github.io/static/bkg_img/stars.jpg)";
 		document.body.style.backgroundSize = "cover";
 		document.getElementById('credit').innerHTML = '';
 		for(var i=0; i<font.length; i++)
