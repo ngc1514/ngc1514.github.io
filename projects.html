@@ -1,90 +1,93 @@
-<!DOCTYPE html>
 <html>
 
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Projects</title>
-    <link rel="icon" href="alibaba.ico" type="image/x-icon" />   
-    <link rel="apple-touch-icon" sizes="57x57" href="{{ 'apple-touch-icon-57x57.png' | asset_url }}">
-     
-    <!-- Global Site Tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106734134-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments)};
-      gtag('js', new Date());
-      gtag('config', 'UA-106734134-1');
-    </script>
+    <title>Projects</title>
 
+    <link rel="icon" href="alibaba.ico" type="image/x-icon" />
     <link rel='stylesheet' type="text/css" href="main.css">
-    <script src='restyle.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <div class="Google site tag">
+        <!-- Global Site Tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106734134-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments)};
+            gtag('js', new Date());
+            gtag('config', 'UA-106734134-1');
+        </script>
+    </div>
+
+    <script src="restyle.js" ></script>
 </head>
 
-<body>
-
-    <div class ="Greeting">
-        <h1 align="center">My Projects</h1>
-    </div>
+<body onload="startTime();">
+    <h1 align="center"> Projects </h1>
 
     <div class="navbar">
-        <a href="home.html">Home</a>
-        <a href="#" onclick="restyle('style1');">Bright Theme</a>
+        <a class="active" href="home.html">Home</a>
+        <a href="#" onclick="restyle('white');">Bright Theme</a>
         <a href="#" onclick="restyle('dark');">Dark Theme</a>
-        <a href="#" onclick="restyle('changeBackground1');">Background 2</a>
-        <a href="#" onclick="restyle('changeBackground2');">Background 3</a>
+        <a href="#" onclick="restyle('gray');">Gray</a>
+        <a href="#" onclick="restyle('stars');">Stars</a>
+        <a href="#" onclick="restyle('night');">Summer Nights</a>
+        <a href="https://twitter.com/shesky17" class="fa fa-twitter"></a>
+        <a href="https://www.linkedin.com/in/aiden-xie-452646160/" class="fa fa-linkedin"></a>
     </div>
 
-	<hr>
+    <hr>
 
-	<div class="ProjectsList">
-		<left>
-			<ul>
-				<li> 
-                    <a href="lunchbox.html">Raspberry Pi lunch box </a> 
-                </li>
-                <br>
-				<li> 
-                    <a href="LCDwithLED.html">Arduino IR Control LED with LCD timer </a>
-                </li>
-                <br>
-				<li> 
-                    <a href="Servo.html"> How to control a servo motor with Arduino and joystick? </a>
-                </li>
-                <br>
-                <li> 
-                    <a href="#"> Project Face (Under construction) </a>
-                </li> 
-                <br>
-                <li> 
-                    <a href="#"> 6 Axis Arm Prototype (Under construction) </a>
-                </li>
-            </ul>
-		</left>
-
+    <center>
         <ul>
-            <li>
-                <font> File uploader BETA </font>
+            <li> 
+                <a href="lunchbox.html">Raspberry Pi lunch box </a>
             </li>
-            <form enctype="multipart/form-data" action="uploader2.php" method="POST">
-                <input type="hidden" name="MAX_FILE_SIZE" value="5000000000" />
-                <input name="userfile" type="file" />
-                <input type="submit" value="Go" />
-            </form>
+            <li> 
+                <a href="LCDwithLED.html">Arduino IR Control LED with LCD timer </a>
+            </li>
+            <li> 
+                <a href="servo.html"> Control a servo motor with an Arduino and a joystick? </a>
+            </li> 
+            <li> 
+                <a> Project CRIME (Under construction) </a>
+            </li> 
+            <li> 
+                <a> Project Face (Under construction) </a>
+            </li> 
+            <li> 
+                <a> 6 Axis Arm Prototype (Under construction) </a>
+            </li>
         </ul>
-    </div>
-	<hr>
+    </center>
 
-    <div id='credit'>
+    <hr>
+
+    <!-- load clock and displayTimeMessage javascript -->
+    <div class = "clock">
+        <script type="text/javascript" src="startTime.js"> </script>
+    </div>
+    <div class ="msg">
+        <script type="text/javascript" src="displayTimeMessage.js"> </script>
+    </div>
+
+    <div class = "timeMessage">
         <center>
-            <font size="4" color="white">
-                Background credit to: <br> 
-                Leung Jonathan. 'Amazing Summer Night. <i>Flickr</i>, 24 Aug. 2014, https://www.flickr.com/photos/jonathan-leung/15425904419/.
-            </font>
+            <font size="4" color="black"> ↓ It is now ↓ </font> <br>
+            <font id="clock" size='4' color='black'> </font> <br>
+            <font id="msg" size="3" color="black"> </font>
+            <script>
+                displayMessage();
+            </script>
         </center>
     </div>
 
+    <hr>
+
+    <div id='credit'>
+    </div>
 </body>
 
 </html>

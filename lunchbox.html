@@ -1,59 +1,42 @@
-<!DOCTYPE html>
 <html>
 
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Projects</title>
-    <link rel="icon" href="alibaba.ico" type="image/x-icon" />   
-    <link rel="apple-touch-icon" sizes="57x57" href="{{ 'apple-touch-icon-57x57.png' | asset_url }}">
-     
-    <!-- Global Site Tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106734134-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments)};
-      gtag('js', new Date());
-      gtag('config', 'UA-106734134-1');
-    </script>
+  <title>Projects</title>
 
-    <!-- Setting background image and font color -->
-    <style type="text/css">
-      body {background-image: url("backgroundMain.jpg"); background-size: cover;} 
-      p
-      {
-        font-size:26px;/*设置文字字号*/
-        color:white;/*设置文字颜色*/
-        font-weight:bold;/*设置字体加粗*/
-        }
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-      .img-div 
-      { 
-        height:92%; width:92%;
-      }
-      img 
-      { 
-        max-width:92% 
-      }
+  <link rel="icon" href="alibaba.ico" type="image/x-icon" />
+  <link rel='stylesheet' type="text/css" href="main.css">
 
-    </style>
+  <!-- Global Site Tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106734134-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments)};
+    gtag('js', new Date());
+    gtag('config', 'UA-106734134-1');
+  </script>
+
+  <script src="restyle.js" ></script>
 </head>
 
 <body>
-
-  <div id="Home page button">
-    <span class="floating_element">
-            <font size="4"><a href="home.html" title="Go back to home page" style="color:white">Go back to home page</a></font>
-            <br><br>
-            <font size="4"><a href="projects.html" title="Go back to project page" style="color:white">Go back to project page</a></font>
-            <br><br>
-            <font> <a href="https://www.instagram.com/p/BmcWJOWBFH4/?taken-by=shesky017" title="instagram page" style="color:white"> Link to my instagram page </a> </font>
-        </span>
+  <div class="navbar">
+    <a class="active" href="home.html">Home</a>
+    <a class="second" href="projects.html">Projects</a>
+    <a href="#" onclick="restyle('white');">Bright Theme</a>
+    <a href="#" onclick="restyle('dark');">Dark Theme</a>
+    <a href="#" onclick="restyle('gray');">Gray</a>
+    <a href="#" onclick="restyle('stars');">Stars</a>
+    <a href="#" onclick="restyle('night');">Summer Nights</a>
   </div>
 
-  <div class="img-div">
+  <hr>
+
+  <div class="image">
     <center>
-          <img src="lunchbox.png" alt="lunchbox" align="middle">
+      <img src="lunchbox.png" alt="Lunchbox">
     </center>
   </div>
 

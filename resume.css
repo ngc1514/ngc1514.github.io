@@ -4,14 +4,15 @@
 }
 
 body {
-  background-image: url("background2.jpg"); background-size: cover;
+  background-image: url("stars.jpg"); background-size: cover;
+  font-family:"Segoe UI",Arial,sans-serif;
 }
 
 div.main_page {
   position: relative;
   display: table;
 
-  width: 650px;
+  width: 700px;
 
   margin-bottom: 3px;
   margin-left: auto;
@@ -25,6 +26,7 @@ div.main_page {
   background-color: #FFFFFF;
 
   text-align: center;
+  opacity: 0.85;
 }
 
 div.page_header {
@@ -32,13 +34,6 @@ div.page_header {
   width: 100%;
   background-color: white;
 }
-
-div.page_header span {
-  margin: 15px 0px 0px 50px;
-  font-size: 180%;
-  font-weight: bold;
-}
-
 
 /*top blank part*/
 div.content_section {
@@ -56,15 +51,9 @@ div.content_section_text {
   font-size: 100%;
 }
 
-/*spaces between lists*/
-div.content_section_text ul, div.content_section_text li {
-  padding: 4px 8px 4px 16px;
-}
-
 /*sub headers*/
 div.section_header {
   padding: 3px 6px 3px 6px;
-
   background-color: #6495ED; /*sub headers coler*/
 
   /*header font color*/
@@ -72,6 +61,7 @@ div.section_header {
   font-weight: bold;
   font-size: 112%;
   text-align: center;
+  opacity: 0.75;
 }
 
 /*top go back text, floating*/
@@ -79,28 +69,6 @@ div.section_header {
   position: relative;
   float: left;
 }
-
-/*top part links font, bold*/
-div.content_section_text a {
-  text-decoration: none;
-  font-weight: bold;
-}
-
-/* top part links background color*/
-div.content_section_text a:link,
-div.content_section_text a:visited,
-div.content_section_text a:active {
-  background-color: white; /* link's background color, original: #DCDFE6*/
-  color: #000000; /* color when it's selected*/
-}
-
-/* when selected top link, color changes -- hover */
-div.content_section_text a:hover {
-  background-color: white; /*link's background color, when selected, original: #DCDFE6*/
-  /*color: red;  dont't know if it has any uses */
-}
-
-div.validator {} /* validator*/    
 
 .navbar {
     overflow: hidden;
@@ -122,4 +90,9 @@ div.validator {} /* validator*/
 .navbar a:hover {
     background: #ddd;
     color: black;
+}
+
+.navbar a.active{
+    background-color: #4CAF50;
+    color: white;
 }

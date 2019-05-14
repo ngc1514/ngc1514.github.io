@@ -3,19 +3,19 @@ function displayMessage()
     var today1 = new Date();
     var hour = today1.getHours();
 
-    if (hour >= 0 && hour <= 7)
+    if (hour >= 23 && hour <= 4)
     {
-       var msg = 'Hmmmm.. It&#39;s late. Time for bed. ';
+       var msg = 'It&#39;s late. ';
        document.getElementById("msg").innerHTML = msg;
     }
-    if (hour >= 5 && hour < 8)
+    if (hour > 5 && hour < 12)
     {
-    var msg = 'Good Morning! Time to get up';
+    var msg = 'Good Morning. ';
     document.getElementById("msg").innerHTML = msg;
     }	
-    if (hour >= 8 && hour <= 17)
+    if (hour >= 12 && hour <= 20)
     {
-        var msg = 'Work.. Work... Work...';
+        var msg = 'Work Blyat';
         document.getElementById("msg").innerHTML = msg;
     }   	
 }
