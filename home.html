@@ -1,0 +1,122 @@
+<html>
+
+<!-- HEAD -->
+<head>    	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>17's Home page</title>
+	<link rel="icon" href="alibaba.ico" type="image/x-icon" />   
+	<link rel="apple-touch-icon" sizes="57x57" href="{{ 'apple-touch-icon-57x57.png' | asset_url }}">
+
+	<div class="Google site tag">
+		<!-- Global Site Tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106734134-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments)};
+			gtag('js', new Date());
+			gtag('config', 'UA-106734134-1');
+		</script>
+	</div>
+
+	<link rel="stylesheet" type="text/css" href="main.css">
+    <script src="restyle.js"></script>
+
+    <style type="text/css">
+		.banner {
+			text-align: center;
+		  	padding: 10px 16px;
+		  	background: #555;
+		  	color: #f1f1f1;		  
+		  	font-size:15px;
+		  	font-family: Arial, Helvetica, sans-serif;    
+		}
+    </style>
+
+</head>
+
+<body onload="startTime()">
+
+	<div class="banner">
+		<h1>Major improvements coming up... </h1>
+	</div>
+
+	<div class ="Greeting">
+		<h1 align="center">This website is used as a testing ground for my shitcodes (projects).</h1>
+	</div>
+
+	<div class="navbar">
+	  <a href="#" onclick="restyle('style1');">Bright Theme</a>
+	  <a href="#" onclick="restyle('dark');">Dark Theme</a>
+	  <a href="#" onclick="restyle('changeBackground1');">Background 1</a>
+	  <a href="#" onclick="restyle('changeBackground2');">Background 2</a>
+	</div>
+
+	<hr>
+
+	<div class = "contentList">
+		<left>
+			<ul>
+				<li>
+					<a href="https://github.com/Shesky17"> Link to my gitHub page </a>
+				</li>
+				<br/>
+				<li>
+					<a href="brightIndex.html" title="Welcome page">Welcome page</a>
+				</li>
+				<br/>
+				<li>
+					<a href="about.html" title="About me">About me</a>
+				</li>
+				<br/>
+				<li>
+					<a href="projects.html" title="projects page">Projects</a></font>
+				</li>
+				<br/>
+				<li>
+					<a href="./files/" title="files system">Shared files system folder</a>
+				</li>
+				<br/>
+				<li>
+					<a href="mailto:aidenx58@gmail.com?subject=Contact Siqi Xie"> Contact me if you have any question </a>
+				</li>
+				<br/>
+			</ul>
+		</left>
+	</div>
+
+	<hr>
+
+	<!-- load clock and displayTimeMessage javascript -->
+	<div class = "clock">
+		<script type="text/javascript" src="startTime.js"> </script>
+	</div>
+	<div class ="msg">
+		<script type="text/javascript" src="displayTimeMessage.js"> </script>
+	</div>
+
+	<div class = "timeMessage">
+		<center>
+			<font size="4" color="white"> ↓ It is now ↓ </font> <br>
+			<font id="clock" size='4' color='#ffffff'></font>	 <br>
+			<font id="msg" size="3" color="white"></font>
+			<script>
+				displayMessage();
+			</script>
+		</center>
+	</div>
+
+	<hr>
+
+	<div id='credit'>
+		<center>
+			<font size="4" color="white">
+				Background credit to: <br> 
+				Leung Jonathan. 'Amazing Summer Night. <i>Flickr</i>, 24 Aug. 2014, https://www.flickr.com/photos/jonathan-leung/15425904419/.
+			</font>
+		</center>
+	</div>
+
+</body>
+
+</html>

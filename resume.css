@@ -1,0 +1,125 @@
+* {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+body {
+  background-image: url("background2.jpg"); background-size: cover;
+}
+
+div.main_page {
+  position: relative;
+  display: table;
+
+  width: 650px;
+
+  margin-bottom: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 0px 0px 0px;
+
+  border-width: 2px;
+  border-color: #212738;
+  border-style: solid;
+
+  background-color: #FFFFFF;
+
+  text-align: center;
+}
+
+div.page_header {
+  height: 70px;
+  width: 100%;
+  background-color: white;
+}
+
+div.page_header span {
+  margin: 15px 0px 0px 50px;
+  font-size: 180%;
+  font-weight: bold;
+}
+
+
+/*top blank part*/
+div.content_section {
+  margin: 3px 3px 3px 3px;
+
+  background-color: #FFFFFF; /*top blank part color*/
+
+  text-align: left;
+}
+/*top part font*/
+div.content_section_text {
+  padding: 4px 8px 4px 8px;
+
+  color: #000000;
+  font-size: 100%;
+}
+
+/*spaces between lists*/
+div.content_section_text ul, div.content_section_text li {
+  padding: 4px 8px 4px 16px;
+}
+
+/*sub headers*/
+div.section_header {
+  padding: 3px 6px 3px 6px;
+
+  background-color: #6495ED; /*sub headers coler*/
+
+  /*header font color*/
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 112%;
+  text-align: center;
+}
+
+/*top go back text, floating*/
+.floating_element {
+  position: relative;
+  float: left;
+}
+
+/*top part links font, bold*/
+div.content_section_text a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* top part links background color*/
+div.content_section_text a:link,
+div.content_section_text a:visited,
+div.content_section_text a:active {
+  background-color: white; /* link's background color, original: #DCDFE6*/
+  color: #000000; /* color when it's selected*/
+}
+
+/* when selected top link, color changes -- hover */
+div.content_section_text a:hover {
+  background-color: white; /*link's background color, when selected, original: #DCDFE6*/
+  /*color: red;  dont't know if it has any uses */
+}
+
+div.validator {} /* validator*/    
+
+.navbar {
+    overflow: hidden;
+    background-color: #696969;
+    position: bottom; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}

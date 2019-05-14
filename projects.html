@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Projects</title>
+    <link rel="icon" href="alibaba.ico" type="image/x-icon" />   
+    <link rel="apple-touch-icon" sizes="57x57" href="{{ 'apple-touch-icon-57x57.png' | asset_url }}">
+     
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106734134-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments)};
+      gtag('js', new Date());
+      gtag('config', 'UA-106734134-1');
+    </script>
+
+    <link rel='stylesheet' type="text/css" href="main.css">
+    <script src='restyle.js'></script>
+
+</head>
+
+<body>
+
+    <div class ="Greeting">
+        <h1 align="center">My Projects</h1>
+    </div>
+
+    <div class="navbar">
+        <a href="home.html">Home</a>
+        <a href="#" onclick="restyle('style1');">Bright Theme</a>
+        <a href="#" onclick="restyle('dark');">Dark Theme</a>
+        <a href="#" onclick="restyle('changeBackground1');">Background 2</a>
+        <a href="#" onclick="restyle('changeBackground2');">Background 3</a>
+    </div>
+
+	<hr>
+
+	<div class="ProjectsList">
+		<left>
+			<ul>
+				<li> 
+                    <a href="lunchbox.html">Raspberry Pi lunch box </a> 
+                </li>
+                <br>
+				<li> 
+                    <a href="LCDwithLED.html">Arduino IR Control LED with LCD timer </a>
+                </li>
+                <br>
+				<li> 
+                    <a href="Servo.html"> How to control a servo motor with Arduino and joystick? </a>
+                </li> 
+                <br>
+                <li> 
+                    <a href="crimeIndex.html"> Project CRIME </a>
+                </li> 
+                <br>
+                <li> 
+                    <a href="#"> Project Face (Under construction) </a>
+                </li> 
+                <br>
+                <li> 
+                    <a href="#"> 6 Axis Arm Prototype (Under construction) </a>
+                </li>
+            </ul>
+		</left>
+
+        <ul>
+            <li>
+                <font> File uploader BETA </font>
+            </li>
+            <form enctype="multipart/form-data" action="uploader2.php" method="POST">
+                <input type="hidden" name="MAX_FILE_SIZE" value="5000000000" />
+                <input name="userfile" type="file" />
+                <input type="submit" value="Go" />
+            </form>
+        </ul>
+    </div>
+	<hr>
+
+    <div id='credit'>
+        <center>
+            <font size="4" color="white">
+                Background credit to: <br> 
+                Leung Jonathan. 'Amazing Summer Night. <i>Flickr</i>, 24 Aug. 2014, https://www.flickr.com/photos/jonathan-leung/15425904419/.
+            </font>
+        </center>
+    </div>
+
+</body>
+
+</html>
