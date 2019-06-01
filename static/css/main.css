@@ -14,8 +14,12 @@ p{
     font-weight:bold;
 }
 
+font{
+    color: white;
+}
 h1 {
-    color: black;
+    /*color: black;*/
+    color: white;
 }
 
 img {
@@ -56,7 +60,6 @@ li a:hover {
 .navbar {
     overflow: hidden;
     background-color: #696969;
-    position: bottom; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
     font-family:"Segoe UI",Arial,sans-serif;
