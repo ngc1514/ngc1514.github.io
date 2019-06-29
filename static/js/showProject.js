@@ -5,7 +5,7 @@ function restyle(strStyle)
 
 	if(strStyle === 'style1')
 	{
-		document.body.style.background = "url(https://shesky17.github.io/static/bkg_img/backgroundMain.jpg)";
+		document.body.style.background = "url(https://www.shesky17.com/static/bkg_img/backgroundMain.jpg)";
 		document.body.style.backgroundSize = "cover";
 
 		document.getElementById('credit').innerHTML = "<center><font size='4' color='white'>Background credit to: <br> Leung Jonathan. 'Amazing Summer Night.' <i>Flickr</i>, 24 Aug. 2014, https://www.flickr.com/photos/jonathan-leung/15425904419/.</font></center>";
@@ -35,7 +35,7 @@ function restyle(strStyle)
 	}
 	else if(strStyle === 'changeBackground1')
 	{
-		document.body.style.background = "url(https://shesky17.github.io/static/bkg_img/background2.jpg)";
+		document.body.style.background = "url(https://www.shesky17.com/static/bkg_img/background2.jpg)";
 		document.body.style.backgroundSize = "cover";
 		document.getElementById('credit').innerHTML = '';
 
@@ -50,7 +50,7 @@ function restyle(strStyle)
 	}
 	else if(strStyle === 'changeBackground2')
 	{
-		document.body.style.background = "url(https://shesky17.github.io/static/bkg_img/background3.jpg)";
+		document.body.style.background = "url(https://www.shesky17.com/static/bkg_img/background3.jpg)";
 		document.body.style.backgroundSize = "cover";
 		document.getElementById('credit').innerHTML = '';
 
