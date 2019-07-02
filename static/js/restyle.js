@@ -51,8 +51,9 @@ function restyle(strStyle)
 	}
 	else if(strStyle === 'stars')
 	{
-		document.body.style.background = "url(https://www.shesky17.com/static/bkg_img/stars.jpg)";
+		document.body.style.background = "url(https://www.shesky17.com/static/bkg_img/stars.jpg) no-repeat center center fixed";
 		document.body.style.backgroundSize = "cover";
+
 		document.getElementById('credit').innerHTML = '';
 		for(var i=0; i<font.length; i++)
 		{
