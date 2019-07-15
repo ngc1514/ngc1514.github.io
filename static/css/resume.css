@@ -41,24 +41,23 @@ div.page_header {
 
 /*top blank part*/
 div.content_section {
-    margin: 3px 3px 3px 3px;
+    /*margin: 3px 3px 3px 3px;*/
 
-    background-color: #FFFFFF; /*top blank part color*/
-
+    width: 100%;
+    background-color: #FFFFFF;
     text-align: left;
 }
 /*top part font*/
 div.content_section_text {
     padding: 4px 8px 4px 8px;
-
     color: #000000;
     font-size: 100%;
 }
 
 /*sub headers*/
 div.section_header {
-    padding: 3px 6px 3px 6px;
-    background-color: #6495ED; /*sub headers coler*/
+    padding: 3px 0px 3px 0px;
+    background-color: #6495ED;
     width: 100%;
 
     /*header font color*/
