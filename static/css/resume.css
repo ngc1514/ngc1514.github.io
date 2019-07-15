@@ -16,7 +16,7 @@ div.main_page {
     position: relative;
     display: table;
 
-    width: 680px;
+    width: 656px;
 
     margin-bottom: 3px;
     margin-left: auto;
@@ -59,6 +59,7 @@ div.content_section_text {
 div.section_header {
     padding: 3px 6px 3px 6px;
     background-color: #6495ED; /*sub headers coler*/
+    width: 100%;
 
     /*header font color*/
     color: #FFFFFF;
