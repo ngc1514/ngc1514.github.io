@@ -1,6 +1,6 @@
 body 
 {
-    background: url("https://www.shesky17.com/static/bkg_img/stars.jpg") no-repeat center center fixed;
+    background: url("../../static/bkg_img/stars.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

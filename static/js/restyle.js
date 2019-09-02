@@ -6,7 +6,7 @@ function restyle(strStyle)
 
 	if(strStyle === 'white')
 	{
-		document.body.style.background = "url(https://www.shesky17.com/static/bkg_img/whiteIndex.png)";
+		document.body.style.background = "url(../static/bkg_img/whiteIndex.png)";
 		document.body.style.backgroundSize = "cover";
 		document.getElementById('credit').innerHTML = '';
 		for(var i=0; i<font.length; i++)
@@ -37,7 +37,7 @@ function restyle(strStyle)
 	}
 	else if(strStyle === 'gray')
 	{
-		document.body.style.background = "url(https://www.shesky17.com/static/bkg_img/grayIndex.png)";
+		document.body.style.background = "url(../static/bkg_img/grayIndex.png)";
 		document.body.style.backgroundSize = "cover";
 		document.getElementById('credit').innerHTML = '';for (var i=0; i<font.length; i++);
 		for(var i=0; i<font.length; i++)
@@ -51,7 +51,7 @@ function restyle(strStyle)
 	}
 	else if(strStyle === 'stars')
 		{
-			document.body.style.background = "url(https://www.shesky17.com/static/bkg_img/stars.jpg) no-repeat center center fixed";
+			document.body.style.background = "url(../static/bkg_img/stars.jpg) no-repeat center center fixed";
 			document.body.style.backgroundSize = "cover";
 
 			document.getElementById('credit').innerHTML = '';
@@ -66,7 +66,7 @@ function restyle(strStyle)
 	}
 	else if(strStyle === 'matterhorn')
 	{
-		document.body.style.background = "url(https://www.shesky17.com/static/bkg_img/matterhorn.jpg) no-repeat center center fixed";
+		document.body.style.background = "url(../static/bkg_img/matterhorn.jpg) no-repeat center center fixed";
 		document.body.style.backgroundSize = "cover";
 
 		document.getElementById('credit').innerHTML = '';
@@ -81,7 +81,7 @@ function restyle(strStyle)
 	}
 	else if(strStyle === 'night')
 	{
-		document.body.style.background = "url(https://www.shesky17.com/static/bkg_img/night.jpg)";
+		document.body.style.background = "url(../static/bkg_img/night.jpg)";
 		document.body.style.backgroundSize = "cover";
 		document.getElementById('credit').innerHTML = "<center><font size='4' color='white'>Background credit to: <br> Leung Jonathan. 'Amazing Summer Night.' <i>Flickr</i>, 24 Aug. 2014, https://www.flickr.com/photos/jonathan-leung/15425904419/.</font></center>";
 		for(var i=0; i<font.length; i++)

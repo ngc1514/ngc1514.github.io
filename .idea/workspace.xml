@@ -2,10 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66efb838-0909-4ba7-9af2-309c41dad4a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/blog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/darkIndex.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/darkIndex.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/resume.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/resume.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/restyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/restyle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/showProject.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/LCDwithLED.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/LCDwithLED.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/darkIndex.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/darkIndex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/lunchbox.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/lunchbox.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/servo.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/servo.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,28 +31,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>fav</find>
-      <find>ico</find>
-      <find>favicon</find>
-      <find>h1</find>
-      <find>font</find>
-      <find>display</find>
-      <find>dis</find>
-      <find>css</find>
-      <find>io</find>
-      <find />
-      <find>github</find>
-      <find>https://www.shesky17.com</find>
-      <find>https://shesky17.github.io</find>
-      <find>bac</find>
-      <find>si</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>https://www.shesky17.com</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -122,7 +113,7 @@
       <workItem from="1562201760331" duration="596000" />
       <workItem from="1562212843796" duration="26000" />
       <workItem from="1563172078445" duration="1545000" />
-      <workItem from="1567445840457" duration="254000" />
+      <workItem from="1567445840457" duration="1438000" />
     </task>
     <task id="LOCAL-00001" summary="Updated">
       <created>1557803039788</created>
@@ -390,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563172976361</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Improvement">
+      <created>1567446121012</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1567446121012</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -410,6 +408,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updated" />
     <MESSAGE value="Bug fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bug fixed" />
+    <MESSAGE value="Improvement" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improvement" />
   </component>
 </project>
