@@ -1,24 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66efb838-0909-4ba7-9af2-309c41dad4a0" name="Default Changelist" comment="">
+    <list default="true" id="66efb838-0909-4ba7-9af2-309c41dad4a0" name="Default Changelist" comment="Improvement">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/blog.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/darkIndex.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/darkIndex.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/resume.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/resume.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/restyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/restyle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/showProject.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/LCDwithLED.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/LCDwithLED.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/darkIndex.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/darkIndex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/lunchbox.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/lunchbox.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/servo.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/servo.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +98,10 @@
       <workItem from="1562201760331" duration="596000" />
       <workItem from="1562212843796" duration="26000" />
       <workItem from="1563172078445" duration="1545000" />
-      <workItem from="1567445840457" duration="1438000" />
+      <workItem from="1567445840457" duration="2101000" />
+      <workItem from="1567522927441" duration="41000" />
+      <workItem from="1568237459865" duration="28000" />
+      <workItem from="1574221860825" duration="48000" />
     </task>
     <task id="LOCAL-00001" summary="Updated">
       <created>1557803039788</created>
@@ -388,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567446121012</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Improvement">
+      <created>1567447325967</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1567447325967</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,7 +394,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
