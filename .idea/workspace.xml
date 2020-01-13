@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66efb838-0909-4ba7-9af2-309c41dad4a0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/static/blog_img/1fe.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog_img/dab1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog_img/dab2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog_img/dab3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog_img/dab4.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/blog.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/projects.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,23 +42,23 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/blog_img" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IntelliJ workspace\shesky17.github.io\static\bkg_img" />
-      <recent name="D:\IntelliJ workspace\shesky17.github.io\static\project_img" />
-      <recent name="D:\IntelliJ workspace\shesky17.github.io" />
-      <recent name="D:\IntelliJ workspace\shesky17.github.io\static" />
-      <recent name="." />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\IntelliJ workspace\shesky17.github.io" />
       <recent name="D:\IntelliJ workspace\shesky17.github.io\templates" />
       <recent name="D:\IntelliJ workspace\shesky17.github.io\static\js" />
       <recent name="D:\IntelliJ workspace\shesky17.github.io\static\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace_IntelliJ\shesky17.github.io\static\blog_img" />
+      <recent name="D:\IntelliJ workspace\shesky17.github.io\static\bkg_img" />
+      <recent name="D:\IntelliJ workspace\shesky17.github.io\static\project_img" />
+      <recent name="D:\IntelliJ workspace\shesky17.github.io" />
+      <recent name="D:\IntelliJ workspace\shesky17.github.io\static" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -110,7 +112,9 @@
       <workItem from="1567522927441" duration="41000" />
       <workItem from="1568237459865" duration="28000" />
       <workItem from="1574221860825" duration="65000" />
-      <workItem from="1576639565663" duration="1521000" />
+      <workItem from="1576639565663" duration="1704000" />
+      <workItem from="1577225550574" duration="32000" />
+      <workItem from="1578941728575" duration="1043000" />
     </task>
     <task id="LOCAL-00001" summary="Updated">
       <created>1557803039788</created>
@@ -423,5 +427,15 @@
     <MESSAGE value="Bug fixed" />
     <MESSAGE value="Improvement" />
     <option name="LAST_COMMIT_MESSAGE" value="Improvement" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1576641159609">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1576641159609" />
+    <state x="383" y="142" key="new project wizard" timestamp="1577225579712">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="383" y="142" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1577225579712" />
   </component>
 </project>
