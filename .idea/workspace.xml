@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66efb838-0909-4ba7-9af2-309c41dad4a0" name="Default Changelist" comment="" />
+    <list default="true" id="66efb838-0909-4ba7-9af2-309c41dad4a0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,25 +43,25 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/doc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace_IntelliJ\shesky17.github.io\static\doc" />
+      <recent name="D:\workspace_IntelliJ\shesky17.github.io\static\blog_img" />
+      <recent name="D:\IntelliJ workspace\shesky17.github.io\static\bkg_img" />
+      <recent name="D:\IntelliJ workspace\shesky17.github.io\static\project_img" />
+      <recent name="D:\IntelliJ workspace\shesky17.github.io" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\workspace_IntelliJ\shesky17.github.io\static\doc" />
       <recent name="D:\IntelliJ workspace\shesky17.github.io" />
       <recent name="D:\IntelliJ workspace\shesky17.github.io\templates" />
       <recent name="D:\IntelliJ workspace\shesky17.github.io\static\js" />
       <recent name="D:\IntelliJ workspace\shesky17.github.io\static\css" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workspace_IntelliJ\shesky17.github.io\static\blog_img" />
-      <recent name="D:\IntelliJ workspace\shesky17.github.io\static\bkg_img" />
-      <recent name="D:\IntelliJ workspace\shesky17.github.io\static\project_img" />
-      <recent name="D:\IntelliJ workspace\shesky17.github.io" />
-      <recent name="D:\IntelliJ workspace\shesky17.github.io\static" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -122,6 +124,8 @@
       <workItem from="1579495589139" duration="25000" />
       <workItem from="1579496875531" duration="1311000" />
       <workItem from="1580446669341" duration="747000" />
+      <workItem from="1581050114321" duration="45000" />
+      <workItem from="1581102058810" duration="4000" />
     </task>
     <task id="LOCAL-00001" summary="Updated">
       <created>1557803039788</created>
@@ -459,7 +463,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580447409343</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Updated">
+      <created>1581050150599</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1581050150599</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -481,16 +492,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Bug fixed" />
     <MESSAGE value="Improvement" />
-    <MESSAGE value="Updated" />
     <MESSAGE value="Improved" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improved" />
+    <MESSAGE value="Updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2498" y="132" width="1148" height="912" key="CommitChangelistDialog2" timestamp="1580447408677">
+    <state x="2498" y="132" width="1148" height="912" key="CommitChangelistDialog2" timestamp="1581050150046">
       <screen x="1920" y="0" width="1920" height="1030" />
     </state>
     <state x="459" y="48" width="1148" height="912" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579242181634" />
-    <state x="2498" y="132" key="CommitChangelistDialog2/1920.0.1920.1030/0.0.1536.814@1920.0.1920.1030" timestamp="1580447408677" />
+    <state x="2498" y="132" key="CommitChangelistDialog2/1920.0.1920.1030/0.0.1536.814@1920.0.1920.1030" timestamp="1581050150046" />
     <state x="3122" y="167" key="CommitChangelistDialog2/2400.0.2400.1300/0.0.1920.1030@2400.0.2400.1300" timestamp="1579498179048" />
     <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1576641159609">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -500,11 +511,11 @@
       <screen x="2400" y="0" width="2400" height="1300" />
     </state>
     <state x="2984" y="189" key="SettingsEditor/2400.0.2400.1300/0.0.1920.1030@2400.0.2400.1300" timestamp="1579496976928" />
-    <state x="2473" y="249" key="Vcs.Push.Dialog.v2" timestamp="1580447410545">
+    <state x="2473" y="249" key="Vcs.Push.Dialog.v2" timestamp="1581050153979">
       <screen x="1920" y="0" width="1920" height="1030" />
     </state>
     <state x="553" y="251" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579242184411" />
-    <state x="2473" y="249" key="Vcs.Push.Dialog.v2/1920.0.1920.1030/0.0.1536.814@1920.0.1920.1030" timestamp="1580447410545" />
+    <state x="2473" y="249" key="Vcs.Push.Dialog.v2/1920.0.1920.1030/0.0.1536.814@1920.0.1920.1030" timestamp="1581050153979" />
     <state x="3091" y="314" key="Vcs.Push.Dialog.v2/2400.0.2400.1300/0.0.1920.1030@2400.0.2400.1300" timestamp="1579498180949" />
     <state x="383" y="142" key="new project wizard" timestamp="1577225579712">
       <screen x="0" y="0" width="1920" height="1040" />
