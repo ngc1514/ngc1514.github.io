@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="66efb838-0909-4ba7-9af2-309c41dad4a0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/host_files/test_include.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/host_files/test_include.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,19 +50,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace_IntelliJ\shesky17.github.io\static\host_files" />
+      <recent name="D:\workspace_IntelliJ\shesky17.github.io\static\doc" />
+      <recent name="D:\IntelliJ workspace\shesky17.github.io" />
+      <recent name="D:\IntelliJ workspace\shesky17.github.io\templates" />
+      <recent name="D:\IntelliJ workspace\shesky17.github.io\static\js" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workspace_IntelliJ\shesky17.github.io\static\doc" />
       <recent name="D:\workspace_IntelliJ\shesky17.github.io\static\blog_img" />
       <recent name="D:\IntelliJ workspace\shesky17.github.io\static\bkg_img" />
       <recent name="D:\IntelliJ workspace\shesky17.github.io\static\project_img" />
       <recent name="D:\IntelliJ workspace\shesky17.github.io" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workspace_IntelliJ\shesky17.github.io\static\doc" />
-      <recent name="D:\IntelliJ workspace\shesky17.github.io" />
-      <recent name="D:\IntelliJ workspace\shesky17.github.io\templates" />
-      <recent name="D:\IntelliJ workspace\shesky17.github.io\static\js" />
-      <recent name="D:\IntelliJ workspace\shesky17.github.io\static\css" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -126,13 +127,8 @@
       <workItem from="1580446669341" duration="747000" />
       <workItem from="1581050114321" duration="45000" />
       <workItem from="1581102058810" duration="4000" />
-    </task>
-    <task id="LOCAL-00001" summary="Updated">
-      <created>1557803039788</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1557803039788</updated>
+      <workItem from="1582616157139" duration="75000" />
+      <workItem from="1582616261652" duration="53000" />
     </task>
     <task id="LOCAL-00002" summary="Updated">
       <created>1557803305576</created>
@@ -470,7 +466,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581050150599</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="test">
+      <created>1582616230500</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1582616230500</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -494,13 +497,15 @@
     <MESSAGE value="Improvement" />
     <MESSAGE value="Improved" />
     <MESSAGE value="Updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2498" y="132" width="1148" height="912" key="CommitChangelistDialog2" timestamp="1581050150046">
-      <screen x="1920" y="0" width="1920" height="1030" />
+    <state x="578" y="120" width="1148" height="912" key="CommitChangelistDialog2" timestamp="1582616229813">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="459" y="48" width="1148" height="912" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579242181634" />
+    <state x="578" y="120" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1536.834@0.0.1920.1050" timestamp="1582616229813" />
     <state x="2498" y="132" key="CommitChangelistDialog2/1920.0.1920.1030/0.0.1536.814@1920.0.1920.1030" timestamp="1581050150046" />
     <state x="3122" y="167" key="CommitChangelistDialog2/2400.0.2400.1300/0.0.1920.1030@2400.0.2400.1300" timestamp="1579498179048" />
     <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1576641159609">
@@ -511,10 +516,11 @@
       <screen x="2400" y="0" width="2400" height="1300" />
     </state>
     <state x="2984" y="189" key="SettingsEditor/2400.0.2400.1300/0.0.1920.1030@2400.0.2400.1300" timestamp="1579496976928" />
-    <state x="2473" y="249" key="Vcs.Push.Dialog.v2" timestamp="1581050153979">
-      <screen x="1920" y="0" width="1920" height="1030" />
+    <state x="553" y="254" key="Vcs.Push.Dialog.v2" timestamp="1582616231814">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="553" y="251" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579242184411" />
+    <state x="553" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1536.834@0.0.1920.1050" timestamp="1582616231814" />
     <state x="2473" y="249" key="Vcs.Push.Dialog.v2/1920.0.1920.1030/0.0.1536.814@1920.0.1920.1030" timestamp="1581050153979" />
     <state x="3091" y="314" key="Vcs.Push.Dialog.v2/2400.0.2400.1300/0.0.1920.1030@2400.0.2400.1300" timestamp="1579498180949" />
     <state x="383" y="142" key="new project wizard" timestamp="1577225579712">
