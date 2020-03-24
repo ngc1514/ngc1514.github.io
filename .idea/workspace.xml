@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="66efb838-0909-4ba7-9af2-309c41dad4a0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/projects.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +43,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/host_files" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -132,21 +131,9 @@
       <workItem from="1582616524012" duration="138000" />
       <workItem from="1582744039380" duration="17000" />
       <workItem from="1582933149201" duration="80000" />
-      <workItem from="1583017785939" duration="53000" />
-    </task>
-    <task id="LOCAL-00006" summary="Updated">
-      <created>1557805630391</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1557805630391</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Updated">
-      <created>1557805765926</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1557805765926</updated>
+      <workItem from="1583017785939" duration="76000" />
+      <workItem from="1583376619279" duration="79000" />
+      <workItem from="1583691487160" duration="53000" />
     </task>
     <task id="LOCAL-00008" summary="Updated">
       <created>1557805911683</created>
@@ -477,7 +464,21 @@
       <option name="project" value="LOCAL" />
       <updated>1582933223231</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Updated projects.html">
+      <created>1583017855597</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1583017855598</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Fixed">
+      <created>1583691527963</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1583691527964</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -503,14 +504,16 @@
     <MESSAGE value="Updated" />
     <MESSAGE value="test" />
     <MESSAGE value="Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
+    <MESSAGE value="Updated projects.html" />
+    <MESSAGE value="Fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="578" y="120" width="1148" height="912" key="CommitChangelistDialog2" timestamp="1582933222758">
+    <state x="578" y="120" width="1148" height="912" key="CommitChangelistDialog2" timestamp="1583691527405">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="459" y="48" width="1148" height="912" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579242181634" />
-    <state x="578" y="120" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1536.834@0.0.1920.1050" timestamp="1582933222758" />
+    <state x="578" y="120" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1536.834@0.0.1920.1050" timestamp="1583691527405" />
     <state x="2498" y="132" key="CommitChangelistDialog2/1920.0.1920.1030/0.0.1536.814@1920.0.1920.1030" timestamp="1581050150046" />
     <state x="3122" y="167" key="CommitChangelistDialog2/2400.0.2400.1300/0.0.1920.1030@2400.0.2400.1300" timestamp="1579498179048" />
     <state x="592" y="221" key="FileChooserDialogImpl" timestamp="1582744054065">
@@ -522,11 +525,11 @@
       <screen x="2400" y="0" width="2400" height="1300" />
     </state>
     <state x="2984" y="189" key="SettingsEditor/2400.0.2400.1300/0.0.1920.1030@2400.0.2400.1300" timestamp="1579496976928" />
-    <state x="461" y="258" key="Vcs.Push.Dialog.v2" timestamp="1582933224493">
+    <state x="461" y="258" key="Vcs.Push.Dialog.v2" timestamp="1583691528963">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="553" y="251" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579242184411" />
-    <state x="461" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1536.834@0.0.1920.1050" timestamp="1582933224493" />
+    <state x="461" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1536.834@0.0.1920.1050" timestamp="1583691528963" />
     <state x="2473" y="249" key="Vcs.Push.Dialog.v2/1920.0.1920.1030/0.0.1536.814@1920.0.1920.1030" timestamp="1581050153979" />
     <state x="3091" y="314" key="Vcs.Push.Dialog.v2/2400.0.2400.1300/0.0.1920.1030@2400.0.2400.1300" timestamp="1579498180949" />
     <state x="383" y="142" key="new project wizard" timestamp="1577225579712">
