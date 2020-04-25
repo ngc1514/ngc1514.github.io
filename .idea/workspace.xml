@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="66efb838-0909-4ba7-9af2-309c41dad4a0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +35,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -49,6 +49,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace_IntelliJ\shesky17.github.io\static\doc" />
+      <recent name="D:\workspace_IntelliJ\shesky17.github.io\static\host_files" />
+      <recent name="D:\IntelliJ workspace\shesky17.github.io" />
+      <recent name="D:\IntelliJ workspace\shesky17.github.io\templates" />
+      <recent name="D:\IntelliJ workspace\shesky17.github.io\static\js" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workspace_IntelliJ\shesky17.github.io\static\host_files" />
       <recent name="D:\workspace_IntelliJ\shesky17.github.io\static\doc" />
@@ -56,25 +63,6 @@
       <recent name="D:\IntelliJ workspace\shesky17.github.io\static\bkg_img" />
       <recent name="D:\IntelliJ workspace\shesky17.github.io\static\project_img" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workspace_IntelliJ\shesky17.github.io\static\host_files" />
-      <recent name="D:\workspace_IntelliJ\shesky17.github.io\static\doc" />
-      <recent name="D:\IntelliJ workspace\shesky17.github.io" />
-      <recent name="D:\IntelliJ workspace\shesky17.github.io\templates" />
-      <recent name="D:\IntelliJ workspace\shesky17.github.io\static\js" />
-    </key>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -134,13 +122,8 @@
       <workItem from="1583017785939" duration="76000" />
       <workItem from="1583376619279" duration="79000" />
       <workItem from="1583691487160" duration="53000" />
-    </task>
-    <task id="LOCAL-00008" summary="Updated">
-      <created>1557805911683</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1557805911683</updated>
+      <workItem from="1585077638263" duration="142000" />
+      <workItem from="1587850240501" duration="168000" />
     </task>
     <task id="LOCAL-00009" summary="Updated">
       <created>1557806677212</created>
@@ -478,24 +461,30 @@
       <option name="project" value="LOCAL" />
       <updated>1583691527964</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Fixed">
+      <created>1585077769275</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1585077769275</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Bug fixed" />
@@ -509,11 +498,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="Fixed" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="578" y="120" width="1148" height="912" key="CommitChangelistDialog2" timestamp="1583691527405">
+    <state x="578" y="120" width="1148" height="912" key="CommitChangelistDialog2" timestamp="1585077768679">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="459" y="48" width="1148" height="912" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579242181634" />
-    <state x="578" y="120" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1536.834@0.0.1920.1050" timestamp="1583691527405" />
+    <state x="578" y="120" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1536.834@0.0.1920.1050" timestamp="1585077768679" />
     <state x="2498" y="132" key="CommitChangelistDialog2/1920.0.1920.1030/0.0.1536.814@1920.0.1920.1030" timestamp="1581050150046" />
     <state x="3122" y="167" key="CommitChangelistDialog2/2400.0.2400.1300/0.0.1920.1030@2400.0.2400.1300" timestamp="1579498179048" />
     <state x="592" y="221" key="FileChooserDialogImpl" timestamp="1582744054065">
@@ -525,11 +514,11 @@
       <screen x="2400" y="0" width="2400" height="1300" />
     </state>
     <state x="2984" y="189" key="SettingsEditor/2400.0.2400.1300/0.0.1920.1030@2400.0.2400.1300" timestamp="1579496976928" />
-    <state x="461" y="258" key="Vcs.Push.Dialog.v2" timestamp="1583691528963">
+    <state x="461" y="258" key="Vcs.Push.Dialog.v2" timestamp="1585077772654">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="553" y="251" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579242184411" />
-    <state x="461" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1536.834@0.0.1920.1050" timestamp="1583691528963" />
+    <state x="461" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1536.834@0.0.1920.1050" timestamp="1585077772654" />
     <state x="2473" y="249" key="Vcs.Push.Dialog.v2/1920.0.1920.1030/0.0.1536.814@1920.0.1920.1030" timestamp="1581050153979" />
     <state x="3091" y="314" key="Vcs.Push.Dialog.v2/2400.0.2400.1300/0.0.1920.1030@2400.0.2400.1300" timestamp="1579498180949" />
     <state x="383" y="142" key="new project wizard" timestamp="1577225579712">
