@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: shesky17.com
+Token: fe8d51fc1eeee8141c2a1dcf3fc6850dc9c2d08efc62c92c60b7d7d66b1b9782
