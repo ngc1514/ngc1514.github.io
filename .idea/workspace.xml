@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66efb838-0909-4ba7-9af2-309c41dad4a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.test/hehe.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/.test/hehe.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/sec/wtf.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,14 +123,7 @@
       <workItem from="1583691487160" duration="53000" />
       <workItem from="1585077638263" duration="142000" />
       <workItem from="1587850240501" duration="188000" />
-      <workItem from="1588049714131" duration="563000" />
-    </task>
-    <task id="LOCAL-00011" summary="Updated">
-      <created>1557806874051</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1557806874051</updated>
+      <workItem from="1588049714131" duration="666000" />
     </task>
     <task id="LOCAL-00012" summary="Updated">
       <created>1557807536868</created>
@@ -470,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588049772575</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Test path shit">
+      <created>1588050289357</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1588050289357</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -498,13 +496,14 @@
     <MESSAGE value="Fixed" />
     <MESSAGE value="Updated" />
     <MESSAGE value="Does this shit work?" />
-    <option name="LAST_COMMIT_MESSAGE" value="Does this shit work?" />
+    <MESSAGE value="Test path shit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test path shit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="578" y="120" width="1148" height="912" key="CommitChangelistDialog2" timestamp="1588049772047">
+    <state x="578" y="120" width="1148" height="912" key="CommitChangelistDialog2" timestamp="1588050288948">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="578" y="120" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1536.834@0.0.1920.1050" timestamp="1588049772047" />
+    <state x="578" y="120" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1536.834@0.0.1920.1050" timestamp="1588050288948" />
     <state x="2498" y="132" key="CommitChangelistDialog2/1920.0.1920.1030/0.0.1536.814@1920.0.1920.1030" timestamp="1581050150046" />
     <state x="3122" y="167" key="CommitChangelistDialog2/2400.0.2400.1300/0.0.1920.1030@2400.0.2400.1300" timestamp="1579498179048" />
     <state x="592" y="221" key="FileChooserDialogImpl" timestamp="1582744054065">
@@ -515,10 +514,10 @@
       <screen x="2400" y="0" width="2400" height="1300" />
     </state>
     <state x="2984" y="189" key="SettingsEditor/2400.0.2400.1300/0.0.1920.1030@2400.0.2400.1300" timestamp="1579496976928" />
-    <state x="461" y="258" key="Vcs.Push.Dialog.v2" timestamp="1588049970518">
+    <state x="461" y="258" key="Vcs.Push.Dialog.v2" timestamp="1588050290369">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="461" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1536.834@0.0.1920.1050" timestamp="1588049970518" />
+    <state x="461" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1536.834@0.0.1920.1050" timestamp="1588050290369" />
     <state x="2473" y="249" key="Vcs.Push.Dialog.v2/1920.0.1920.1030/0.0.1536.814@1920.0.1920.1030" timestamp="1581050153979" />
     <state x="3091" y="314" key="Vcs.Push.Dialog.v2/2400.0.2400.1300/0.0.1920.1030@2400.0.2400.1300" timestamp="1579498180949" />
   </component>
