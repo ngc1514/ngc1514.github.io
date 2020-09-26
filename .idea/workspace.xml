@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66efb838-0909-4ba7-9af2-309c41dad4a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/sec/wtf.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,12 +40,17 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -123,21 +129,10 @@
       <workItem from="1583691487160" duration="53000" />
       <workItem from="1585077638263" duration="142000" />
       <workItem from="1587850240501" duration="188000" />
-      <workItem from="1588049714131" duration="666000" />
-    </task>
-    <task id="LOCAL-00012" summary="Updated">
-      <created>1557807536868</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1557807536868</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Updated">
-      <created>1557807968669</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1557807968669</updated>
+      <workItem from="1588049714131" duration="770000" />
+      <workItem from="1601078428722" duration="45000" />
+      <workItem from="1601078480954" duration="101000" />
+      <workItem from="1601078592413" duration="38000" />
     </task>
     <task id="LOCAL-00014" summary="Updated">
       <created>1557808350904</created>
@@ -468,7 +463,21 @@
       <option name="project" value="LOCAL" />
       <updated>1588050289357</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Test path shit">
+      <created>1588050385953</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1588050385953</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Test path shit">
+      <created>1588050478090</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1588050478090</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -500,25 +509,17 @@
     <option name="LAST_COMMIT_MESSAGE" value="Test path shit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="578" y="120" width="1148" height="912" key="CommitChangelistDialog2" timestamp="1588050288948">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="1474" y="574" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1601078471785">
+      <screen x="0" y="0" width="3440" height="1410" />
     </state>
-    <state x="578" y="120" key="CommitChangelistDialog2/0.0.1920.1050/-1920.0.1536.834@0.0.1920.1050" timestamp="1588050288948" />
-    <state x="2498" y="132" key="CommitChangelistDialog2/1920.0.1920.1030/0.0.1536.814@1920.0.1920.1030" timestamp="1581050150046" />
-    <state x="3122" y="167" key="CommitChangelistDialog2/2400.0.2400.1300/0.0.1920.1030@2400.0.2400.1300" timestamp="1579498179048" />
-    <state x="592" y="221" key="FileChooserDialogImpl" timestamp="1582744054065">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="1474" y="574" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.3440.1410/-1920.203.1920.1050@0.0.3440.1410" timestamp="1601078471785" />
+    <state x="1500" y="446" key="FileChooserDialogImpl" timestamp="1601078469333">
+      <screen x="0" y="0" width="3440" height="1410" />
     </state>
-    <state x="592" y="221" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1582744054065" />
-    <state x="2984" y="189" key="SettingsEditor" timestamp="1579496976928">
-      <screen x="2400" y="0" width="2400" height="1300" />
+    <state x="1500" y="446" key="FileChooserDialogImpl/0.0.3440.1410/-1920.203.1920.1050@0.0.3440.1410" timestamp="1601078469333" />
+    <state x="1221" y="350" key="SettingsEditor" timestamp="1601078509829">
+      <screen x="0" y="0" width="3440" height="1410" />
     </state>
-    <state x="2984" y="189" key="SettingsEditor/2400.0.2400.1300/0.0.1920.1030@2400.0.2400.1300" timestamp="1579496976928" />
-    <state x="461" y="258" key="Vcs.Push.Dialog.v2" timestamp="1588050290369">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="461" y="258" key="Vcs.Push.Dialog.v2/0.0.1920.1050/-1920.0.1536.834@0.0.1920.1050" timestamp="1588050290369" />
-    <state x="2473" y="249" key="Vcs.Push.Dialog.v2/1920.0.1920.1030/0.0.1536.814@1920.0.1920.1030" timestamp="1581050153979" />
-    <state x="3091" y="314" key="Vcs.Push.Dialog.v2/2400.0.2400.1300/0.0.1920.1030@2400.0.2400.1300" timestamp="1579498180949" />
+    <state x="1221" y="350" key="SettingsEditor/0.0.3440.1410/-1920.203.1920.1050@0.0.3440.1410" timestamp="1601078509829" />
   </component>
 </project>
