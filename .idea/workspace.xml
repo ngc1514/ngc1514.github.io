@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66efb838-0909-4ba7-9af2-309c41dad4a0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="66efb838-0909-4ba7-9af2-309c41dad4a0" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +22,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="0dacf003-7883-4b74-8393-28e11566b019" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -54,19 +54,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\IntelliJ\workspace_IntelliJ\shesky17.github.io\static\doc" />
+      <recent name="D:\workspace_IntelliJ\shesky17.github.io\static\doc" />
+      <recent name="D:\workspace_IntelliJ\shesky17.github.io\static\host_files" />
+      <recent name="D:\IntelliJ workspace\shesky17.github.io" />
+      <recent name="D:\IntelliJ workspace\shesky17.github.io\templates" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\workspace_IntelliJ\shesky17.github.io" />
       <recent name="F:\workspace_IntelliJ\shesky17.github.io\.well-known" />
       <recent name="D:\workspace_IntelliJ\shesky17.github.io\static\host_files" />
       <recent name="D:\workspace_IntelliJ\shesky17.github.io\static\doc" />
       <recent name="D:\workspace_IntelliJ\shesky17.github.io\static\blog_img" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workspace_IntelliJ\shesky17.github.io\static\doc" />
-      <recent name="D:\workspace_IntelliJ\shesky17.github.io\static\host_files" />
-      <recent name="D:\IntelliJ workspace\shesky17.github.io" />
-      <recent name="D:\IntelliJ workspace\shesky17.github.io\templates" />
-      <recent name="D:\IntelliJ workspace\shesky17.github.io\static\js" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -133,13 +133,7 @@
       <workItem from="1601078428722" duration="45000" />
       <workItem from="1601078480954" duration="101000" />
       <workItem from="1601078592413" duration="38000" />
-    </task>
-    <task id="LOCAL-00014" summary="Updated">
-      <created>1557808350904</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1557808350904</updated>
+      <workItem from="1601078645769" duration="559000" />
     </task>
     <task id="LOCAL-00015" summary="Bug fixed">
       <created>1557855345176</created>
@@ -477,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588050478090</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Updated">
+      <created>1601078791519</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1601078791520</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -503,23 +504,35 @@
     <MESSAGE value="Commit" />
     <MESSAGE value="Updated projects.html" />
     <MESSAGE value="Fixed" />
-    <MESSAGE value="Updated" />
     <MESSAGE value="Does this shit work?" />
     <MESSAGE value="Test path shit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test path shit" />
+    <MESSAGE value="Updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1474" y="574" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1601078471785">
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
     <state x="1474" y="574" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.3440.1410/-1920.203.1920.1050@0.0.3440.1410" timestamp="1601078471785" />
+    <state x="1184" y="272" key="CommitChangelistDialog2" timestamp="1601078791207">
+      <screen x="0" y="0" width="3440" height="1410" />
+    </state>
+    <state x="1184" y="272" key="CommitChangelistDialog2/0.0.3440.1410/-1920.203.1920.1050@0.0.3440.1410" timestamp="1601078791207" />
     <state x="1500" y="446" key="FileChooserDialogImpl" timestamp="1601078469333">
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
     <state x="1500" y="446" key="FileChooserDialogImpl/0.0.3440.1410/-1920.203.1920.1050@0.0.3440.1410" timestamp="1601078469333" />
+    <state x="1442" y="627" key="Github.Dialog.Accounts.Choose" timestamp="1601078809715">
+      <screen x="0" y="0" width="3440" height="1410" />
+    </state>
+    <state x="1442" y="627" key="Github.Dialog.Accounts.Choose/0.0.3440.1410/-1920.203.1920.1050@0.0.3440.1410" timestamp="1601078809715" />
     <state x="1221" y="350" key="SettingsEditor" timestamp="1601078509829">
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
     <state x="1221" y="350" key="SettingsEditor/0.0.3440.1410/-1920.203.1920.1050@0.0.3440.1410" timestamp="1601078509829" />
+    <state x="1174" y="438" key="Vcs.Push.Dialog.v2" timestamp="1601078793470">
+      <screen x="0" y="0" width="3440" height="1410" />
+    </state>
+    <state x="1174" y="438" key="Vcs.Push.Dialog.v2/0.0.3440.1410/-1920.203.1920.1050@0.0.3440.1410" timestamp="1601078793470" />
   </component>
 </project>
