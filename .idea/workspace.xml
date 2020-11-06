@@ -54,19 +54,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\workspace_IntelliJ\shesky17.github.io" />
-      <recent name="F:\workspace_IntelliJ\shesky17.github.io\.well-known" />
-      <recent name="D:\workspace_IntelliJ\shesky17.github.io\static\host_files" />
-      <recent name="D:\workspace_IntelliJ\shesky17.github.io\static\doc" />
-      <recent name="D:\workspace_IntelliJ\shesky17.github.io\static\blog_img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\IntelliJ\workspace_IntelliJ\shesky17.github.io\static\doc" />
       <recent name="D:\workspace_IntelliJ\shesky17.github.io\static\doc" />
       <recent name="D:\workspace_IntelliJ\shesky17.github.io\static\host_files" />
       <recent name="D:\IntelliJ workspace\shesky17.github.io" />
       <recent name="D:\IntelliJ workspace\shesky17.github.io\templates" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\workspace_IntelliJ\shesky17.github.io" />
+      <recent name="F:\workspace_IntelliJ\shesky17.github.io\.well-known" />
+      <recent name="D:\workspace_IntelliJ\shesky17.github.io\static\host_files" />
+      <recent name="D:\workspace_IntelliJ\shesky17.github.io\static\doc" />
+      <recent name="D:\workspace_IntelliJ\shesky17.github.io\static\blog_img" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -135,13 +135,7 @@
       <workItem from="1601078592413" duration="38000" />
       <workItem from="1601078645769" duration="559000" />
       <workItem from="1604078944761" duration="113000" />
-    </task>
-    <task id="LOCAL-00016" summary="Bug fixed">
-      <created>1558390000996</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1558390000996</updated>
+      <workItem from="1604082560909" duration="25000" />
     </task>
     <task id="LOCAL-00017" summary="Bug fixed">
       <created>1558648362305</created>
@@ -479,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604079050869</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Updated">
+      <created>1604082579294</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1604082579295</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -515,10 +516,10 @@
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
     <state x="1474" y="574" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.3440.1410/-1920.203.1920.1050@0.0.3440.1410" timestamp="1601078471785" />
-    <state x="1184" y="272" key="CommitChangelistDialog2" timestamp="1604079050552">
+    <state x="1184" y="272" key="CommitChangelistDialog2" timestamp="1604082579005">
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
-    <state x="1184" y="272" key="CommitChangelistDialog2/0.0.3440.1410/-1080.-309.1080.1890@0.0.3440.1410" timestamp="1604079050552" />
+    <state x="1184" y="272" key="CommitChangelistDialog2/0.0.3440.1410/-1080.-309.1080.1890@0.0.3440.1410" timestamp="1604082579005" />
     <state x="1184" y="272" key="CommitChangelistDialog2/0.0.3440.1410/-1920.203.1920.1050@0.0.3440.1410" timestamp="1601078791207" />
     <state x="1500" y="446" key="FileChooserDialogImpl" timestamp="1601078469333">
       <screen x="0" y="0" width="3440" height="1410" />
@@ -532,10 +533,10 @@
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
     <state x="1221" y="350" key="SettingsEditor/0.0.3440.1410/-1920.203.1920.1050@0.0.3440.1410" timestamp="1601078509829" />
-    <state x="1174" y="438" key="Vcs.Push.Dialog.v2" timestamp="1604079052337">
+    <state x="1174" y="438" key="Vcs.Push.Dialog.v2" timestamp="1604082580765">
       <screen x="0" y="0" width="3440" height="1410" />
     </state>
-    <state x="1174" y="438" key="Vcs.Push.Dialog.v2/0.0.3440.1410/-1080.-309.1080.1890@0.0.3440.1410" timestamp="1604079052337" />
+    <state x="1174" y="438" key="Vcs.Push.Dialog.v2/0.0.3440.1410/-1080.-309.1080.1890@0.0.3440.1410" timestamp="1604082580765" />
     <state x="1174" y="438" key="Vcs.Push.Dialog.v2/0.0.3440.1410/-1920.203.1920.1050@0.0.3440.1410" timestamp="1601078793470" />
   </component>
 </project>
