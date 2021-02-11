@@ -1,6 +1,6 @@
 body 
 {
-    background: url("../../static/bkg_img/stars.jpg") no-repeat center center fixed;
+    background-color: #141d26;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

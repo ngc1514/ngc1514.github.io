@@ -1,45 +1,92 @@
-<!DOCTYPE html>
 <html>
 
-<head>    
-    <title>Shesky17</title>
+<head>
+	<title> Home page </title>
 
-    <center>
-        <h1>Hello / Hallo / 欢迎 / ようこそ</h1>
-    </center>
+	<link rel="icon" href="static/favicon/alibaba.ico" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="static/css/main.css">
+<!--		<link rel="stylesheet" type="text/css" href="../static/css/main.css">-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="icon" href="../static/favicon/alibaba.ico" type="image/x-icon" />
-    <link rel="stylesheet" type="text/css" href="../static/css/index.css">
+	<div class="Google site tag">
+		<!-- Global Site Tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106734134-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments)};
+			gtag('js', new Date());
+			gtag('config', 'UA-106734134-1');
+		</script>
+	</div>
 
-    <!-- Global Site Tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106734134-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments)};
-        gtag('js', new Date());
-        gtag('config', 'UA-106734134-1');
-    </script>
-
+    <script src="static/js/restyle.js" ></script>
 </head>
 
-<body>
-    <!-- Run the animation-->
-    <div>
-      <a href="../templates/home.html" class="button"> Go </a>
-      <font size="5" style="color: white"> ← ← ← </font>
-    </div>
+<body onload="startTime();">
 
-    <center>
-        This is Shesky17
-    </center>
+	<div class="navbar">
+	  	<a href="#" onclick="restyle('dark');">Dark Theme</a>
+	  	<a href="#" onclick="restyle('stars');">Stars</a>
+		<a href="https://www.linkedin.com/in/aiden-xie-452646160/" class="fa fa-linkedin"></a>
+		<a href="https://twitter.com/x3_shesky17" class="fa fa-twitter"></a>
+		<a href="https://github.com/Shesky17" class="fa fa-github"></a>
+	</div>
 
-    <center>
-    <p style="position: fixed; bottom: 0; width:100%;">
-        Switch to <a href="../templates/darkIndex.html">dark theme</a>?
-    </p>
-  </center>
+	<hr>
+
+	<div class = "contentList">
+		<center>
+			<ul>
+				<li>
+					<a href="static/doc/resume.pdf" title="About me">About me</a>
+				</li>
+				<li>
+					<a href="templates/projects.html" title="Projects">Projects</a></font>
+				</li>
+				<li>
+					<a href="templates/blog.html" title="Blog"> Test Blog </a></font>
+				</li>
+				<li>
+					<a href="mailto:siqixie@buffalo.edu?subject=Contact me"> Contact me if you have any question </a>
+				</li>
+			</ul>
+		</center>
+	</div>
+
+	<hr>
+
+	<!-- load clock and displayTimeMessage javascript -->
+	<div class = "clock">
+		<script type="text/javascript" src="static/js/startTime.js"> </script>
+	</div>
+	<div class ="msgjs">
+		<script type="text/javascript" src="static/js/displayTimeMessage.js"> </script>
+	</div>
+
+	<div class = "timeMessage">
+		<center>
+			<font size="4" color="black"> ↓ It is now ↓ </font> <br>
+			<font id="clock" size='4' color='black'> </font> <br>
+			<font id="msg" size="3" color="black"> </font>
+			<script>
+				displayMessage();
+			</script>
+		</center>
+	</div>
+
+	<hr>
+
+	<div id='credit'>
+	</div>
+
+	<div id='notice'>
+		<p style="color:white;font-size:18px; font-weight:normal;" align="center"> *Don't mind the cookie thing.* <br />
+			*It's just my google analytic thing to keep track of the traffic flow* <br/> </p>
+	</div>
+
 </body>
 
 </html>

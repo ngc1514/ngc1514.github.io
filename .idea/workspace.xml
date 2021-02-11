@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66efb838-0909-4ba7-9af2-309c41dad4a0" name="Default Changelist" comment="" />
+    <list default="true" id="66efb838-0909-4ba7-9af2-309c41dad4a0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/darkIndex.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/resume.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/host_files/ls.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/host_files/php_playground.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/host_files/uname.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/restyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/restyle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/LCDwithLED.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/LCDwithLED.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/darkIndex.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/frc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/lunchbox.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/lunchbox.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/servo.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/servo.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,13 +74,6 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\IntelliJ\workspace_IntelliJ\shesky17.github.io\static\doc" />
-      <recent name="D:\workspace_IntelliJ\shesky17.github.io\static\doc" />
-      <recent name="D:\workspace_IntelliJ\shesky17.github.io\static\host_files" />
-      <recent name="D:\IntelliJ workspace\shesky17.github.io" />
-      <recent name="D:\IntelliJ workspace\shesky17.github.io\templates" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\workspace_IntelliJ\shesky17.github.io" />
       <recent name="F:\workspace_IntelliJ\shesky17.github.io\.well-known" />
@@ -68,7 +81,36 @@
       <recent name="D:\workspace_IntelliJ\shesky17.github.io\static\doc" />
       <recent name="D:\workspace_IntelliJ\shesky17.github.io\static\blog_img" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IntelliJ\workspace_IntelliJ\shesky17.github.io" />
+      <recent name="F:\IntelliJ\workspace_IntelliJ\shesky17.github.io\static\doc" />
+      <recent name="D:\workspace_IntelliJ\shesky17.github.io\static\doc" />
+      <recent name="D:\workspace_IntelliJ\shesky17.github.io\static\host_files" />
+      <recent name="D:\IntelliJ workspace\shesky17.github.io" />
+    </key>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/shesky17.github.io/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -136,6 +178,7 @@
       <workItem from="1601078645769" duration="559000" />
       <workItem from="1604078944761" duration="113000" />
       <workItem from="1604082560909" duration="25000" />
+      <workItem from="1613022057101" duration="815000" />
     </task>
     <task id="LOCAL-00017" summary="Bug fixed">
       <created>1558648362305</created>
@@ -484,7 +527,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -510,33 +553,5 @@
     <MESSAGE value="Test path shit" />
     <MESSAGE value="Updated" />
     <option name="LAST_COMMIT_MESSAGE" value="Updated" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="1474" y="574" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1601078471785">
-      <screen x="0" y="0" width="3440" height="1410" />
-    </state>
-    <state x="1474" y="574" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.3440.1410/-1920.203.1920.1050@0.0.3440.1410" timestamp="1601078471785" />
-    <state x="1184" y="272" key="CommitChangelistDialog2" timestamp="1604082579005">
-      <screen x="0" y="0" width="3440" height="1410" />
-    </state>
-    <state x="1184" y="272" key="CommitChangelistDialog2/0.0.3440.1410/-1080.-309.1080.1890@0.0.3440.1410" timestamp="1604082579005" />
-    <state x="1184" y="272" key="CommitChangelistDialog2/0.0.3440.1410/-1920.203.1920.1050@0.0.3440.1410" timestamp="1601078791207" />
-    <state x="1500" y="446" key="FileChooserDialogImpl" timestamp="1601078469333">
-      <screen x="0" y="0" width="3440" height="1410" />
-    </state>
-    <state x="1500" y="446" key="FileChooserDialogImpl/0.0.3440.1410/-1920.203.1920.1050@0.0.3440.1410" timestamp="1601078469333" />
-    <state x="1442" y="627" key="Github.Dialog.Accounts.Choose" timestamp="1601078809715">
-      <screen x="0" y="0" width="3440" height="1410" />
-    </state>
-    <state x="1442" y="627" key="Github.Dialog.Accounts.Choose/0.0.3440.1410/-1920.203.1920.1050@0.0.3440.1410" timestamp="1601078809715" />
-    <state x="1221" y="350" key="SettingsEditor" timestamp="1601078509829">
-      <screen x="0" y="0" width="3440" height="1410" />
-    </state>
-    <state x="1221" y="350" key="SettingsEditor/0.0.3440.1410/-1920.203.1920.1050@0.0.3440.1410" timestamp="1601078509829" />
-    <state x="1174" y="438" key="Vcs.Push.Dialog.v2" timestamp="1604082580765">
-      <screen x="0" y="0" width="3440" height="1410" />
-    </state>
-    <state x="1174" y="438" key="Vcs.Push.Dialog.v2/0.0.3440.1410/-1080.-309.1080.1890@0.0.3440.1410" timestamp="1604082580765" />
-    <state x="1174" y="438" key="Vcs.Push.Dialog.v2/0.0.3440.1410/-1920.203.1920.1050@0.0.3440.1410" timestamp="1601078793470" />
   </component>
 </project>
