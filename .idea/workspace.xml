@@ -1,26 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66efb838-0909-4ba7-9af2-309c41dad4a0" name="Default Changelist" comment="">
+    <list default="true" id="66efb838-0909-4ba7-9af2-309c41dad4a0" name="Default Changelist" comment="Updated shitty site">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/darkIndex.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/resume.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/host_files/ls.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/host_files/php_playground.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/host_files/uname.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/restyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/restyle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/LCDwithLED.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/LCDwithLED.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/darkIndex.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/frc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/lunchbox.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/lunchbox.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/servo.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/servo.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +25,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="0dacf003-7883-4b74-8393-28e11566b019" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -90,17 +70,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/shesky17.github.io/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -178,14 +147,8 @@
       <workItem from="1601078645769" duration="559000" />
       <workItem from="1604078944761" duration="113000" />
       <workItem from="1604082560909" duration="25000" />
-      <workItem from="1613022057101" duration="815000" />
-    </task>
-    <task id="LOCAL-00017" summary="Bug fixed">
-      <created>1558648362305</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1558648362305</updated>
+      <workItem from="1613022057101" duration="970000" />
+      <workItem from="1613033937488" duration="97000" />
     </task>
     <task id="LOCAL-00018" summary="Bug fixed">
       <created>1558648753143</created>
@@ -523,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604082579295</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Updated shitty site">
+      <created>1613022921224</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1613022921224</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -552,6 +522,7 @@
     <MESSAGE value="Does this shit work?" />
     <MESSAGE value="Test path shit" />
     <MESSAGE value="Updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated" />
+    <MESSAGE value="Updated shitty site" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated shitty site" />
   </component>
 </project>
