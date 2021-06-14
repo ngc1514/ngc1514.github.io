@@ -15,7 +15,7 @@ function displayMessage()
     }	
     if (hour >= 12 && hour <= 20)
     {
-        var msg = 'Go to work.. ';
+        var msg = "Enough procrasting. Let's go. ";
         document.getElementById("msg").innerHTML = msg;
     }   	
 }

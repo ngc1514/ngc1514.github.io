@@ -6,8 +6,8 @@
 body {
     font-family: Arial;
     padding: 20px;
-    background: #E4F6F8; //#f1f1f1;
-    background-image: url("../../static/bkg_img/stars.jpg");
+    background: #E4F6F8; 
+    background-color: black;
     -webkit-background-size: auto;
     -moz-background-size: auto;
     -o-background-size: auto;
