@@ -90,7 +90,7 @@ li a:hover {
 
 /* Fake image */
 .img {
-    background-color: #55ACEE; //#aaa;
+    background-color: #55ACEE;
     width: 100%;
     padding: 20px;
 }
@@ -114,7 +114,7 @@ li a:hover {
 .footer {
     padding: 20px;
     text-align: center;
-    background: #55ACEE; //#ddd;
+    background: #55ACEE; 
     margin-top: 20px;
 }
 
