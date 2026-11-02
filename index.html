@@ -43,8 +43,13 @@ th, td { padding: 6px 10px; text-align: right; border-bottom: 1px solid var(--li
 th { position: sticky; top: 0; background: var(--panel); cursor: pointer; user-select: none;
   border-bottom: 2px solid var(--line); z-index: 1; }
 th:hover { background: var(--hover); }
+table.fixed { table-layout: fixed; width: auto; }
+table.fixed th, table.fixed td { overflow: hidden; text-overflow: ellipsis; }
+.resizer { position: absolute; top: 0; right: 0; width: 8px; height: 100%; cursor: col-resize; touch-action: none; }
+.resizer:hover, .resizer.dragging { background: var(--accent); opacity: .4; }
 th .arrow { color: var(--accent); margin-left: 4px; font-size: 11px; }
 th.left, td.left { text-align: left; }
+th.wrap, td.wrap { white-space: normal; min-width: 160px; }
 tbody tr:nth-child(even) { background: var(--row-alt); }
 tbody tr:hover { background: var(--hover); }
 td.name img { vertical-align: middle; margin-right: 6px; image-rendering: pixelated; }
@@ -81,6 +86,8 @@ const fmtPercent = v => v === null ? "—" : v + "%";
 const fmtSeasons = v => v.join(", ");
 const fmtSeasonsOrAll = v => v.length === SEASONS.length ? "All" : v.join(", ");
 
+// Tab fields: label, rows, nameKey, columns, filters, sort, note, and optional wrap (keys of long-text
+// columns that may wrap onto several lines instead of stretching the table past the window).
 // Shared columns for jar and keg: [key, label, formatter, left-aligned, signed-colour]
 function processingColumns(withType) {
   const cols = [["item", "Input item", null, true]];
@@ -137,6 +144,7 @@ const TABS = {
       ["difficulty", "Difficulty & behavior", null, true], ["xp", "Base XP", fmtNum],
       ["trap", "Trap chance", null, true], ["trapMariner", "Trap chance (Mariner)", null, true],
       ["usedIn", "Used in", null, true]],
+    wrap: ["location", "seasonNote", "usedIn"],
     filters: ["quality", "type"], sort: [["price", -1]],
     note: "Source: Stardew Valley Wiki Fish. One row per quality; Fisher and Angler are the wiki's own prices for that quality. Crab pot items only list the qualities the wiki shows (most are Regular and Silver). \"All\" in Season(s) means all four seasons. Season(s) leaves out Ginger Island, so the Season note column holds the wiki's Ginger Island and Secret Woods remarks and the Rain Totem rule (those fish are listed under the totem season too).",
   },
@@ -163,7 +171,8 @@ const TABS = {
   },
 };
 
-const state = { tab: "crops", season: "All", quality: "Regular", type: "All", search: "", sort: [] };
+const state = { tab: "crops", season: "All", quality: "Regular", type: "All", search: "", sort: [],
+  widths: {} };  // widths[tabId][columnKey] = pixels, filled once the user drags a column border
 const els = {
   tabs: document.getElementById("tabs"), controls: document.getElementById("controls"),
   table: document.getElementById("table"), empty: document.getElementById("empty"),
@@ -347,10 +356,62 @@ function cellContent(tab, row, column) {
     td.append(star);
   }
   if (column[3]) td.classList.add("left");
+  if (tab.wrap && tab.wrap.includes(key)) td.classList.add("wrap");
   if (key === "quality") td.classList.add("q-" + value);
   if (column[4] && typeof value === "number") td.classList.add(value < 0 ? "neg" : "pos");
   if (value === null) td.classList.add("muted");
   return td;
+}
+
+const MIN_COLUMN_WIDTH = 40;
+
+// Applies the saved column widths of the current tab (if any) through a <colgroup> and fixed table layout.
+function applyWidths(tab) {
+  const widths = state.widths[state.tab];
+  els.table.classList.toggle("fixed", Boolean(widths));
+  els.table.querySelector("colgroup")?.remove();
+  if (!widths) {
+    els.table.style.width = "";
+    return;
+  }
+  const colgroup = document.createElement("colgroup");
+  let total = 0;
+  for (const column of tab.columns) {
+    const col = document.createElement("col");
+    col.style.width = widths[column[0]] + "px";
+    total += widths[column[0]];
+    colgroup.append(col);
+  }
+  els.table.prepend(colgroup);
+  els.table.style.width = total + "px";
+}
+
+function startResize(event, tab, th, key) {
+  event.preventDefault();
+  event.stopPropagation();
+  if (!state.widths[state.tab]) {
+    // First drag on this tab: freeze every column at its current width.
+    const widths = {};
+    els.table.tHead.querySelectorAll("th").forEach((header, i) => { widths[tab.columns[i][0]] = header.offsetWidth; });
+    state.widths[state.tab] = widths;
+    applyWidths(tab);
+  }
+  const handle = event.target;
+  handle.setPointerCapture(event.pointerId);
+  handle.classList.add("dragging");
+  const startX = event.clientX;
+  const startWidth = state.widths[state.tab][key];
+  const onMove = e => {
+    state.widths[state.tab][key] = Math.max(MIN_COLUMN_WIDTH, startWidth + e.clientX - startX);
+    applyWidths(tab);
+  };
+  const onUp = () => {
+    handle.classList.remove("dragging");
+    handle.removeEventListener("pointermove", onMove);
+    handle.removeEventListener("pointerup", onUp);
+  };
+  handle.addEventListener("pointermove", onMove);
+  handle.addEventListener("pointerup", onUp);
 }
 
 function renderTable() {
@@ -362,6 +423,7 @@ function renderTable() {
   for (const column of tab.columns) {
     const th = document.createElement("th");
     if (column[3]) th.className = "left";
+    if (tab.wrap && tab.wrap.includes(column[0])) th.classList.add("wrap");
     th.textContent = column[1];
     const position = active.findIndex(s => s[0] === column[0]);
     if (position >= 0) {
@@ -371,9 +433,15 @@ function renderTable() {
       th.append(arrow);
     }
     th.addEventListener("click", event => onHeaderClick(column[0], event));
+    const resizer = document.createElement("span");
+    resizer.className = "resizer";
+    resizer.addEventListener("pointerdown", event => startResize(event, tab, th, column[0]));
+    resizer.addEventListener("click", event => event.stopPropagation());
+    th.append(resizer);
     headRow.append(th);
   }
   els.table.tHead.replaceChildren(headRow);
+  applyWidths(tab);
 
   const body = document.createDocumentFragment();
   for (const row of rows) {
