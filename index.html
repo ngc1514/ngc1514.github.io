@@ -36,6 +36,8 @@ button[aria-pressed="true"], button[aria-selected="true"] {
 .controls label { color: var(--muted); display: flex; align-items: center; gap: 6px; }
 select, input[type="search"] { font: inherit; color: inherit; background: var(--panel);
   border: 1px solid var(--line); border-radius: 6px; padding: 5px 8px; }
+.locations { display: flex; flex-wrap: wrap; gap: 4px 14px; flex-basis: 100%; }
+.locations label { gap: 4px; }
 .count { margin-left: auto; color: var(--muted); }
 .wrap { padding: 0 16px 24px; overflow-x: auto; }
 table { border-collapse: collapse; width: 100%; background: var(--panel); border: 1px solid var(--line); }
@@ -145,7 +147,7 @@ const TABS = {
       ["trap", "Trap chance", null, true], ["trapMariner", "Trap chance (Mariner)", null, true],
       ["usedIn", "Used in", null, true]],
     wrap: ["location", "seasonNote", "usedIn"],
-    filters: ["quality", "type"], sort: [["price", -1]],
+    filters: ["quality", "type", "location"], sort: [["price", -1]],
     note: "Source: Stardew Valley Wiki Fish. One row per quality; Fisher and Angler are the wiki's own prices for that quality. Crab pot items only list the qualities the wiki shows (most are Regular and Silver). \"All\" in Season(s) means all four seasons. Season(s) leaves out Ginger Island, so the Season note column holds the wiki's Ginger Island and Secret Woods remarks and the Rain Totem rule (those fish are listed under the totem season too).",
   },
   jar: {
@@ -171,7 +173,17 @@ const TABS = {
   },
 };
 
-const state = { tab: "crops", season: "All", quality: "Regular", type: "All", search: "", sort: [],
+// Fish location checkboxes: each name is matched as a whole word or phrase inside the wiki's free-text location.
+const FISH_LOCATIONS = ["Ocean", "Forest River", "Town River", "Mountain Lake", "Forest Pond", "Forest Waterfalls",
+  "Forest Farm", "Secret Woods", "Beach", "Desert", "Sewers", "Mines", "Mutant Bug Lair", "Witch's Swamp",
+  "Night Market", "Arrowhead Island", "JojaMart", "Ginger Island", "Volcano Caldera", "Pirate Cove", "Freshwater"];
+
+function locationMatches(text, name) {
+  const escaped = name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  return new RegExp("\\b" + escaped + "\\b").test(text);
+}
+
+const state = { tab: "crops", season: "All", quality: "Regular", type: "All", locations: [], search: "", sort: [],
   widths: {} };  // widths[tabId][columnKey] = pixels, filled once the user drags a column border
 const els = {
   tabs: document.getElementById("tabs"), controls: document.getElementById("controls"),
@@ -185,13 +197,15 @@ function loadSaved() {
     for (const key of ["tab", "season", "quality", "type"]) {
       if (saved[key]) state[key] = saved[key];
     }
+    if (Array.isArray(saved.locations)) state.locations = saved.locations.filter(n => FISH_LOCATIONS.includes(n));
     if (!TABS[state.tab]) state.tab = "crops";
   } catch (e) { /* storage unavailable */ }
 }
 function save() {
   try {
     localStorage.setItem("stardew-tables", JSON.stringify(
-      { tab: state.tab, season: state.season, quality: state.quality, type: state.type }));
+      { tab: state.tab, season: state.season, quality: state.quality, type: state.type,
+        locations: state.locations }));
   } catch (e) { /* storage unavailable */ }
 }
 
@@ -207,6 +221,8 @@ function visibleRows() {
     if (!matchesSeason(row)) return false;
     if (tab.filters && tab.filters.includes("quality") && state.quality !== "All" && row.quality !== state.quality) return false;
     if (tab.filters && tab.filters.includes("type") && state.type !== "All" && row.type !== state.type) return false;
+    if (tab.filters && tab.filters.includes("location") && state.locations.length > 0 &&
+        !state.locations.some(name => locationMatches(String(row.location), name))) return false;
     if (query && !String(row[tab.nameKey]).toLowerCase().includes(query)) return false;
     return true;
   });
@@ -289,6 +305,25 @@ function renderControls(shown, total) {
   if (tab.filters && tab.filters.includes("type")) {
     const types = ["All", ...new Set(tab.rows.map(r => r.type))];
     els.controls.append(makeSelect("Type", types, state.type, v => { state.type = v; save(); render(); }));
+  }
+
+  if (tab.filters && tab.filters.includes("location")) {
+    const box = document.createElement("div");
+    box.className = "locations";
+    for (const name of FISH_LOCATIONS) {
+      const label = document.createElement("label");
+      const check = document.createElement("input");
+      check.type = "checkbox";
+      check.checked = state.locations.includes(name);
+      check.addEventListener("change", () => {
+        state.locations = check.checked ? [...state.locations, name] : state.locations.filter(n => n !== name);
+        save();
+        renderTable();
+      });
+      label.append(check, name);
+      box.append(label);
+    }
+    els.controls.append(box);
   }
 
   const search = document.createElement("input");
